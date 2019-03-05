@@ -1,0 +1,140 @@
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 1052672 bytes) in /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php on line 228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 1052672 bytes) in /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php on line 228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 1052672 bytes) in /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php on line 228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 1052672 bytes) in /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php on line 228
+
+   Symfony\Component\Debug\Exception\FatalErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 20480 bytes) in /home/wesata/staging.wesata.id/vendor/jakub-onderka/php-console-highlighter/src/Highlighter.php on line 113
+
+   Symfony\Component\Debug\Exception\FatalErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 102760448) (tried to allocate 20480 bytes) in /home/wesata/staging.wesata.id/vendor/jakub-onderka/php-console-highlighter/src/Highlighter.php on line 171
+
+
+   Symfony\Component\Debug\Exception\FatalErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+   Symfony\Component\Debug\Exception\FatalErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+
+
+
+
+   ErrorException  : Error: Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+   ErrorException  : Error: Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+  Exception trace:
+
+  1   Sentry\ErrorHandler::handleFatalError()
+
+      [internal]:0
+  Exception trace:
+
+  1   Sentry\ErrorHandler::handleFatalError()
+      [internal]:0
+
+   Whoops\Exception\ErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+
+   Whoops\Exception\ErrorException  : Out of memory (allocated 102760448) (tried to allocate 1052672 bytes)
+
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+  at /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php:228
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+    224|         if (0 === $length) {
+    225|             return '';
+    226|         }
+    227| 
+  > 228|         $string = fread($this->stream, $length);
+    229|         if (false === $string) {
+    230|             throw new \RuntimeException('Unable to read from stream');
+    231|         }
+    232|
+
+
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 1052672 bytes) in /home/wesata/staging.wesata.id/vendor/guzzlehttp/psr7/src/Stream.php on line 228
+
+mmap() failed: [12] Cannot allocate memory
+
+mmap() failed: [12] Cannot allocate memory
+PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 20480 bytes) in /home/wesata/staging.wesata.id/vendor/jakub-onderka/php-console-highlighter/src/Highlighter.php on line 176
